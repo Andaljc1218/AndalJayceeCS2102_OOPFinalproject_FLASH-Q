@@ -7,45 +7,44 @@ The Flashcard Quiz System is a console-based Java application designed to aid us
 Key Features
 
 1. User Account Management:
--Register new accounts securely.
--Log in functionality with validation against stored credentials.
--Unique flashcard storage for each user, ensuring data privacy.
+(a) Register new accounts securely.
+(b) Log in functionality with validation against stored credentials.
+(c) Unique flashcard storage for each user, ensuring data privacy.
 
 2. Flashcard Management:
--Add flashcards by selecting a type:
+(a) Add flashcards by selecting a type:
 	Identification Flashcards: Open-ended questions with textual answers.
 	True/False Flashcards: Binary questions with true/false answers.
--Remove, edit, and display stored flashcards with seamless file updates.
+(b) Remove, edit, and display stored flashcards with seamless file updates.
 
 3. Quiz Functionality:
--Take quizzes on specific flashcard types or a randomized set.
--Features to skip, reveal, and revisit skipped questions during the quiz.
--Tracks and displays scores for each type of quiz after completion.
+(a) Take quizzes on specific flashcard types or a randomized set.
+(b) Features to skip, reveal, and revisit skipped questions during the quiz.
+(c) Tracks and displays scores for each type of quiz after completion.
 
 4. File Storage:
--User accounts and flashcards are stored in text files for simplicity and portability.
+(a) User accounts and flashcards are stored in text files for simplicity and portability.
 
 II. Application of OOP Principles
 
 The project employs Object-Oriented Programming (OOP) principles to enhance design clarity, scalability, and maintainability:
 
 1. Encapsulation: Protects data integrity by limiting how external classes interact with internal class states.
--All class fields are declared as private to restrict direct access.
--Controlled access to data is provided via getter and setter methods in classes like Flashcard and UserAccount.
+(a) All class fields are declared as private to restrict direct access.
+(b) Controlled access to data is provided via getter and setter methods in classes like Flashcard and UserAccount.
 
 2. Polymorphism: Allows consistent handling of different flashcard types using a common interface while enabling unique functionalities.
-
--The Flashcard class is an abstract parent class, with IdentificationFlashcard and TrueFalseFlashcard as its concrete implementations.
--Methods like displayFlashcard() and validateAnswer() are overridden in child classes to provide type-specific behavior.
+(a) The Flashcard class is an abstract parent class, with IdentificationFlashcard and TrueFalseFlashcard as its concrete implementations.
+(b) Methods like displayFlashcard() and validateAnswer() are overridden in child classes to provide type-specific behavior.
 
 3. Abstraction: Simplifies interaction with flashcards by focusing on high-level operations
 
--The abstract Flashcard class defines the core structure and common behaviors (e.g., getQuestion()) for all flashcards.
--Internal implementation details, such as question validation, are hidden and customized in child classes.
+(a) The abstract Flashcard class defines the core structure and common behaviors (e.g., getQuestion()) for all flashcards.
+(b) Internal implementation details, such as question validation, are hidden and customized in child classes.
 
 4. Inheritance: Encourages code reuse and simplifies the addition of new flashcard types in the future.
--IdentificationFlashcard and TrueFalseFlashcard inherit from the abstract Flashcard class.
--Shared functionality is implemented in the parent class, reducing redundancy.
+(a) IdentificationFlashcard and TrueFalseFlashcard inherit from the abstract Flashcard class.
+(b) Shared functionality is implemented in the parent class, reducing redundancy.
 
 III. Chosen Sustainable Development Goal (SDG)
 
