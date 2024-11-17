@@ -36,7 +36,7 @@ public class UserAccount {
             }
             System.out.println("Invalid username or password.");
         } catch (IOException e) {
-            System.out.println("Error while logging in: " + e.getMessage());
+            System.out.println("Error while logging in. No account found");
         }
         return null;
     }
