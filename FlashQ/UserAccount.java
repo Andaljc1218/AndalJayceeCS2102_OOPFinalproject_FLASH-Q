@@ -5,7 +5,7 @@ public class UserAccount {
     private static final String ACCOUNT_FILE = "accounts.txt";
 
     public void registerAccount(Scanner scanner) {
-        System.out.println("");
+        System.out.println();
         System.out.print("Enter a new username: ");
         String username = scanner.nextLine();
 

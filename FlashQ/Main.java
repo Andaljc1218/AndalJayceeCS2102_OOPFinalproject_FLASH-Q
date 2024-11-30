@@ -7,7 +7,7 @@ public class Main {
         FlashcardManager flashcardManager = null;
 
         while (true) {
-            System.out.println("");
+            System.out.println();
             System.out.println("===== Flashcard Quiz System =====");
             System.out.println("1. Register Account");
             System.out.println("2. Login");
