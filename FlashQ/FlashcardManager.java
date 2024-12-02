@@ -48,6 +48,7 @@ public class FlashcardManager {
 
     public void addFlashcard() { //fixed
         while (true) {
+            System.out.println();
             System.out.println("\nChoose Flashcard Type:");
             System.out.println("1. Identification");
             System.out.println("2. True/False");
@@ -121,6 +122,7 @@ public class FlashcardManager {
     
         String choice = "";
         while (true) {
+            System.out.println();
             System.out.println("\nChoose Flashcard Type to Remove:");
             System.out.println("1. Identification");
             System.out.println("2. True/False");
@@ -247,7 +249,7 @@ public class FlashcardManager {
             System.out.println("No flashcards to edit.");
             return;
         }
-    
+        System.out.println();
         System.out.println("\nChoose Flashcard Type to Edit:");
         System.out.println("1. Identification");
         System.out.println("2. True/False");
