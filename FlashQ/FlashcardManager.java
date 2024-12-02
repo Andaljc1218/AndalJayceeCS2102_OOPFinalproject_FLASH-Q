@@ -48,7 +48,6 @@ public class FlashcardManager {
 
     public void addFlashcard() { //fixed
         while (true) {
-            System.out.println();
             System.out.println("\nChoose Flashcard Type:");
             System.out.println("1. Identification");
             System.out.println("2. True/False");

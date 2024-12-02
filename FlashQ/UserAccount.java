@@ -27,6 +27,7 @@ public class UserAccount {
     }
 
     public String login(Scanner scanner) {
+        System.out.println();
         System.out.print("Enter username: ");
         String username = scanner.nextLine();
         System.out.print("Enter password: ");
