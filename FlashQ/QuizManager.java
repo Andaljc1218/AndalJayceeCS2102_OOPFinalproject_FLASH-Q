@@ -10,6 +10,7 @@ public class QuizManager {
 
     public void startQuiz() {
         if (flashcards.isEmpty()) {
+            System.out.println();
             System.out.println("No flashcards available for the quiz.");
             return;
         }

@@ -115,6 +115,7 @@ public class FlashcardManager {
 
     public void removeFlashcard() {
         if (flashcards.isEmpty()) {
+            System.out.println();
             System.out.println("No flashcards to remove.");
             return;
         }
@@ -245,6 +246,7 @@ public class FlashcardManager {
     
     public void editFlashcard() {
         if (flashcards.isEmpty()) {
+            System.out.println();
             System.out.println("No flashcards to edit.");
             return;
         }
@@ -355,6 +357,7 @@ public class FlashcardManager {
 
     public void displayFlashcards() {
         if (flashcards.isEmpty()) {
+            System.out.println();
             System.out.println("No flashcards to display.");
             return;
         }
