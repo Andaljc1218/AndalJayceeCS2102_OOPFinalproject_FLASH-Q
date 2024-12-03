@@ -61,3 +61,56 @@ Integration of SDG into the Project:
 	Interactive quiz features, such as revisiting skipped questions and scoring, encourage active learning.
 4. Future Scalability (Possible improvements:
 	The modular design allows future integration of features like multimedia flashcards, progress tracking, and multi-language support.
+
+IV. Instructions for Running the Program
+
+Prerequisites:
+1. Code Editor or IDE: e.g., IntelliJ IDEA, Eclipse, or Visual Studio Code.
+2. Java Development Kit (JDK): Ensure you have JDK 8 or later installed.
+3. File Structure Setup: Organize the files as described in the File Structure section.
+
+Steps to Run:
+
+1. Download and Place Files
+Save all the .java files (e.g., Main.java, UserAccount.java, FlashcardManager.java, QuizManager.java, Flashcard.java, TrueFalseFlashcard.java, IdentificationFlashcard.java) into a single folder named flashcard-system.
+
+ Folder Structure:
+
+flashcard-system/
+├── Main.java
+├── UserAccount.java
+├── FlashcardManager.java
+├── QuizManager.java
+├── Flashcard.java
+├── TrueFalseFlashcard.java
+└── IdentificationFlashcard.java
+
+2. Create and Place Supporting Files:
+
+2.1 accounts.txt:
+	This file stores user credentials (username,password).
+	Place it in the same folder (flashcard-system).
+	If it doesn't exist, the program will create it automatically on account registration.
+
+3. Compile the Program:
+
+	Open a terminal or command prompt.
+	Navigate to the flashcard-system folder.
+
+4. Run the Program:
+
+After successful compilation, run the program by executing:
+-java Main
+
+File Structure
+Your project folder should look like this:
+
+flashcard-system/
+├── Main.java
+├── UserAccount.java
+├── FlashcardManager.java
+├── QuizManager.java
+├── Flashcard.java
+├── TrueFalseFlashcard.java
+├── IdentificationFlashcard.java
+├── accounts.txt (optional, created automatically if not present)
