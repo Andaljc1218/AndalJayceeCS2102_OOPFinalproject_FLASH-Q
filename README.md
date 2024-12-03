@@ -4,7 +4,7 @@
 
 The Flashcard Quiz System is a console-based Java application designed to aid users in learning and self-assessment by creating, managing, and taking quizzes with flashcards. The program prioritizes user-specific data privacy, enabling users to maintain their own flashcards and quiz results independently. It is structured with robust error handling and Object-Oriented Programming (OOP) principles for scalability and modularity.
 
-**Key Features**
+**🔑 Key Features**
 
 1. **User Account Management:**
 	- Register new accounts securely.
