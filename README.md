@@ -48,7 +48,7 @@ The project employs Object-Oriented Programming (OOP) principles to enhance desi
 **III. Chosen Sustainable Development Goal (SDG)**
 
 **SDG 4: Quality Education**
-	- This Java console program directly supports SDG 4 by providing a digital platform to improve learning outcomes and promote self-directed education.
+- This Java console program directly supports SDG 4 by providing a digital platform to improve learning outcomes and promote self-directed education.
 
 **Integration of SDG into the Project:**
 
