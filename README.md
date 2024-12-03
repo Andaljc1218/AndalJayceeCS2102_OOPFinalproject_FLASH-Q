@@ -1,4 +1,4 @@
-**Flashcard Quiz System**
+# Flashcard Quiz System
 
 **I. Project Overview**
 
