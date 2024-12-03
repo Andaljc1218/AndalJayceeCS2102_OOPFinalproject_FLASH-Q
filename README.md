@@ -1,6 +1,6 @@
  # ✨ Flashcard Quiz System ✨
 
-**I. Project Overview**
+## **I. Project Overview**
 
 The Flashcard Quiz System is a console-based Java application designed to aid users in learning and self-assessment by creating, managing, and taking quizzes with flashcards. The program prioritizes user-specific data privacy, enabling users to maintain their own flashcards and quiz results independently. It is structured with robust error handling and Object-Oriented Programming (OOP) principles for scalability and modularity.
 
@@ -25,7 +25,7 @@ The Flashcard Quiz System is a console-based Java application designed to aid us
 4. **📁 File Storage:**
 	- User accounts and flashcards are stored in text files for simplicity and portability.
 
-**II. Application of OOP Principles**
+## **II. Application of OOP Principles**
 
 The project employs Object-Oriented Programming (OOP) principles to enhance design clarity, scalability, and maintainability:
 
@@ -45,7 +45,7 @@ The project employs Object-Oriented Programming (OOP) principles to enhance desi
 	- IdentificationFlashcard and TrueFalseFlashcard inherit from the abstract Flashcard class.
 	- Shared functionality is implemented in the parent class, reducing redundancy.
 
-**III. Chosen Sustainable Development Goal (SDG)**
+## **III. Chosen Sustainable Development Goal (SDG)**
 
 **SDG 4: Quality Education**
 - This Java console program directly supports SDG 4 by providing a digital platform to improve learning outcomes and promote self-directed education.
@@ -62,7 +62,7 @@ The project employs Object-Oriented Programming (OOP) principles to enhance desi
 4. **🚀 Future Scalability (Possible improvements:**
 	- The modular design allows future integration of features like multimedia flashcards, progress tracking, and multi-language support.
 
-**IV. Instructions for Running the Program**
+## **IV. Instructions for Running the Program**
 
 **📋 Prerequisites:**
 1. Code Editor or IDE: e.g., IntelliJ IDEA, Eclipse, or Visual Studio Code.
