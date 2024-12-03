@@ -76,6 +76,7 @@ Save all the .java files (e.g., Main.java, UserAccount.java, FlashcardManager.ja
 
  Folder Structure:
 
+```
 flashcard-system/
 ├── Main.java
 ├── UserAccount.java
@@ -84,6 +85,7 @@ flashcard-system/
 ├── Flashcard.java
 ├── TrueFalseFlashcard.java
 └── IdentificationFlashcard.java
+```
 
 2. Create and Place Supporting Files:
 
@@ -105,6 +107,7 @@ After successful compilation, run the program by executing:
 File Structure
 Your project folder should look like this:
 
+```
 flashcard-system/
 ├── Main.java
 ├── UserAccount.java
@@ -114,3 +117,4 @@ flashcard-system/
 ├── TrueFalseFlashcard.java
 ├── IdentificationFlashcard.java
 ├── accounts.txt (optional, created automatically if not present)
+```
