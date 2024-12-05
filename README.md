@@ -59,7 +59,7 @@ The project employs Object-Oriented Programming (OOP) principles to enhance desi
 	- Users can design flashcards based on their unique needs, enabling focused learning and effective knowledge retention.
 3. **📚 Engagement:**
 	- Interactive quiz features, such as revisiting skipped questions and scoring, encourage active learning.
-4. **🚀 Future Scalability (Possible improvements:**
+4. **🚀 Future Scalability (Possible improvements):**
 	- The modular design allows future integration of features like multimedia flashcards, progress tracking, and multi-language support.
 
 ## **IV. Instructions for Running the Program**
