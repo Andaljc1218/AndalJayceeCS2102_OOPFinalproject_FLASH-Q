@@ -1,4 +1,4 @@
- # ✨ Flashcard Quiz System ✨
+ # ✨ FLASH-Q: Flashcard Quiz System ✨
 
 ## **I. Project Overview**
 
