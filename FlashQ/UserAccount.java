@@ -6,17 +6,32 @@ public class UserAccount {
 
     public void registerAccount(Scanner scanner) {
         System.out.println();
-        System.out.print("Enter a new username: ");
-        String username = scanner.nextLine();
-
-        if (isUsernameTaken(username)) {
-            System.out.println("This username is already taken. Please choose a different username.");
-            return;
+        String username;
+        String password;
+    
+        // Prompt for a valid username
+        while (true) {
+            System.out.print("Enter a new username: ");
+            username = scanner.nextLine().trim(); // Trim to remove leading/trailing spaces
+            if (username.isEmpty()) {
+                System.out.println("Username cannot be blank. Please try again.");
+            } else if (isUsernameTaken(username)) {
+                System.out.println("This username is already taken. Please choose a different username.");
+            } else {
+                break;
+            }
         }
-
-        System.out.print("Enter a new password: ");
-        String password = scanner.nextLine();
-
+    
+        while (true) {
+            System.out.print("Enter a new password: ");
+            password = scanner.nextLine().trim(); // Trim to remove leading/trailing spaces
+            if (password.isEmpty()) {
+                System.out.println("Password cannot be blank. Please try again.");
+            } else {
+                break;
+            }
+        }
+    
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(ACCOUNT_FILE, true))) {
             writer.write(username + "," + password);
             writer.newLine();
@@ -25,6 +40,7 @@ public class UserAccount {
             System.out.println("Error while registering account: " + e.getMessage());
         }
     }
+    
 
     public String login(Scanner scanner) {
         System.out.println();
