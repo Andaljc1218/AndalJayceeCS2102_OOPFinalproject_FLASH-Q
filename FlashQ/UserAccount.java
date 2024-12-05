@@ -9,10 +9,10 @@ public class UserAccount {
         String username;
         String password;
     
-        // Prompt for a valid username
+        
         while (true) {
             System.out.print("Enter a new username: ");
-            username = scanner.nextLine().trim(); // Trim to remove leading/trailing spaces
+            username = scanner.nextLine().trim(); 
             if (username.isEmpty()) {
                 System.out.println("Username cannot be blank. Please try again.");
             } else if (isUsernameTaken(username)) {
