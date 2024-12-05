@@ -24,7 +24,7 @@ public class UserAccount {
     
         while (true) {
             System.out.print("Enter a new password: ");
-            password = scanner.nextLine().trim(); // Trim to remove leading/trailing spaces
+            password = scanner.nextLine().trim(); 
             if (password.isEmpty()) {
                 System.out.println("Password cannot be blank. Please try again.");
             } else {
@@ -41,7 +41,6 @@ public class UserAccount {
         }
     }
     
-
     public String login(Scanner scanner) {
         System.out.println();
         System.out.print("Enter username: ");
